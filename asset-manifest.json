@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/kopac-portfolio/static/css/main.f7de6897.css",
-    "main.js": "/kopac-portfolio/static/js/main.760f83ac.js",
+    "main.css": "/kopac-portfolio/static/css/main.4005f247.css",
+    "main.js": "/kopac-portfolio/static/js/main.818ab89c.js",
     "static/js/787.afc458bd.chunk.js": "/kopac-portfolio/static/js/787.afc458bd.chunk.js",
     "static/media/Superhero-Project.png": "/kopac-portfolio/static/media/Superhero-Project.3c7a788809f23beeb2b4.png",
     "static/media/Day-Planner.png": "/kopac-portfolio/static/media/Day-Planner.6c1cb49591392b543c9d.png",
@@ -10,12 +10,12 @@
     "static/media/Employee-Tracker.png": "/kopac-portfolio/static/media/Employee-Tracker.0821a4f7a613c43f010d.png",
     "static/media/Note-Taker.png": "/kopac-portfolio/static/media/Note-Taker.2a43b51acd42e180cf4a.png",
     "index.html": "/kopac-portfolio/index.html",
-    "main.f7de6897.css.map": "/kopac-portfolio/static/css/main.f7de6897.css.map",
-    "main.760f83ac.js.map": "/kopac-portfolio/static/js/main.760f83ac.js.map",
+    "main.4005f247.css.map": "/kopac-portfolio/static/css/main.4005f247.css.map",
+    "main.818ab89c.js.map": "/kopac-portfolio/static/js/main.818ab89c.js.map",
     "787.afc458bd.chunk.js.map": "/kopac-portfolio/static/js/787.afc458bd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f7de6897.css",
-    "static/js/main.760f83ac.js"
+    "static/css/main.4005f247.css",
+    "static/js/main.818ab89c.js"
   ]
 }
