@@ -10,6 +10,13 @@ nav {
     letter-spacing: normal;
 }
 
+p {
+    font-size: 1.5rem;
+    font-weight: 600;
+    letter-spacing: normal;
+    background-color: aquamarine;
+}
+
 a.nav-link {
     text-decoration: none;
     color: black;
