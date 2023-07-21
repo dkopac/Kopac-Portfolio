@@ -31,6 +31,12 @@ const styles = {
         margin: '1rem',
         fontSize: 'medium',
     },
+    h2Styles: {
+        width: '50%',
+        margin: '1rem',
+        fontSize: 'medium',
+        color: '#fff',
+    },
 };
 
 export default function Resume() {

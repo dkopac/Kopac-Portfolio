@@ -1,13 +1,14 @@
 nav {
-    display: flex;
-    justify-content: space-between;
+    display: flexbox;
+    justify-content:center;
     padding: initial;
     background-color:aquamarine;
-    position: sticky;
+    position: left;
     top: 0;
     z-index: 999;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
     letter-spacing: normal;
+    width: 100%;
 }
 
 p {
@@ -18,7 +19,7 @@ p {
 }
 
 a.nav-link {
-    text-decoration: none;
+    text-decoration: underline;
     color: black;
     font-size: 1.5rem;
     font-weight: 600;
@@ -27,7 +28,7 @@ a.nav-link {
 }
 
 .navbar-text a {
-    text-decoration: none;
+    text-decoration: under;
     color: black;
     font-size: 1.5rem;
     font-weight: 600;

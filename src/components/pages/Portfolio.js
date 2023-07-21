@@ -48,10 +48,10 @@ function Project(props) {
                         <strong>Name:</strong> {props.name}
                     </li>
                     <li>
-                        <strong>GitHub:</strong> {props.github}
+                         <strong>GitHub:</strong> <a href={props.github} target='_blank'>{props.github}</a>
                     </li>
                     <li>
-                        <strong>Deployed:</strong> {props.deployed}
+                        <strong>Deployed:</strong> <a href={props.deployed} target='_blank'>{props.deployed}</a>
                     </li>
                 </ul>
             </div>
@@ -98,26 +98,31 @@ export default function Portfolio() {
             <img style={styles.imgStyles} src={employeeTracker} alt='Employee Tracker' />
             <div class="container" style={styles.pStyles}>
                 <Project
+                    image={superheroSearch}
                     name={projects[0].name}
                     github={projects[0].github}
                     deployed={projects[0].deployed}
                 />
                 <Project
+                    image={dayPlanner}
                     name={projects[1].name}
                     github={projects[1].github}
                     deployed={projects[1].deployed}
                 />
                 <Project
+                    image={noteTaker}
                     name={projects[2].name}
                     github={projects[2].github}
                     deployed={projects[2].deployed}
                 />
                 <Project
+                    image={readmeGenerator}
                     name={projects[3].name}
                     github={projects[3].github}
                     deployed={projects[3].deployed}
                 />
                 <Project
+                    image={employeeTracker}
                     name={projects[4].name}
                     github={projects[4].github}
                     deployed={projects[4].deployed}
