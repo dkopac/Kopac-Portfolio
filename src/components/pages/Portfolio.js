@@ -91,7 +91,7 @@ export default function Portfolio() {
             name: 'Open Mic Night',
             github: 'https://github.com/paulisturm/Local-Open-Mics.git',
             deployed: 'https://local-open-mics-3af6ed455b4c.herokuapp.com/#'
-        }
+        },
     ];
 
     return (
@@ -133,6 +133,12 @@ export default function Portfolio() {
                     name={projects[4].name}
                     github={projects[4].github}
                     deployed={projects[4].deployed}
+                />
+                <Project
+                    image={openMicNight}
+                    name={projects[5].name}
+                    github={projects[5].github}
+                    deployed={projects[5].deployed}
                 />
             </div>
         </div>
