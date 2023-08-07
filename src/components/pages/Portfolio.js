@@ -4,6 +4,7 @@ import dayPlanner from '../../images/Day-Planner.png';
 import noteTaker from '../../images/Note-Taker.png';
 import readmeGenerator from '../../images/Readme-Generator.png';
 import employeeTracker from '../../images/Employee-Tracker.png'
+import openMicNight from '../../images/Open-Mic-Night.png'
 import '../../styles/Projects.css'
 
 const styles = {
@@ -86,6 +87,11 @@ export default function Portfolio() {
             github: 'https://github.com/dkopac/SQL-Employee-Tracker.git',
             deployed: ''
         },
+        {
+            name: 'Open Mic Night',
+            github: 'https://github.com/paulisturm/Local-Open-Mics.git',
+            deployed: 'https://local-open-mics-3af6ed455b4c.herokuapp.com/#'
+        }
     ];
 
     return (
@@ -96,6 +102,7 @@ export default function Portfolio() {
             <img style={styles.imgStyles} src={noteTaker} alt='Note Taker' />
             <img style={styles.imgStyles} src={readmeGenerator} alt='Readme Generator' />
             <img style={styles.imgStyles} src={employeeTracker} alt='Employee Tracker' />
+            <img style={styles.imgStyles} src={openMicNight} alt='Open Mic Night' />
             <div class="container" style={styles.pStyles}>
                 <Project
                     image={superheroSearch}
